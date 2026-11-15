@@ -7,11 +7,11 @@ permissions:
   contents: read
 
 env:
-  RESOURCE-GROUP: rg-eshoponweb-westeurope
-  LOCATION: austriaeast
+  RESOURCE-GROUP: rg-eshoponweb-eastus
+  LOCATION: norwayeast
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 1e0043a4-e86f-40b7-b7ab-3440c7ab5c80
-  WEBAPP-NAME: devops-webapp-westeurope-1840422330
+  WEBAPP-NAME: devops-webapp-eastus-2503126951
 
 jobs:
   #Build, test and publish .net web project in repository
